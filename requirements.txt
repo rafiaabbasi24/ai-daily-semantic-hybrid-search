@@ -1,0 +1,21 @@
+# Core web framework
+fastapi==0.110.0            # FastAPI for building the API
+uvicorn[standard]==0.30.0   # ASGI server for FastAPI
+
+# Deep learning & NLP libraries
+torch==2.3.0                # PyTorch backend
+transformers==4.44.0        # Hugging Face Transformers
+sentence-transformers==3.0.0  # Sentence‑Transformers for embedding models
+
+# Classical ML utilities
+scikit-learn==1.5.0         # Scikit‑learn for clustering, indexing, etc.
+
+# Supporting packages
+numpy==2.0.0                # Numerical operations
+python-multipart==0.0.9    # Form data handling for FastAPI uploads
+
+# Optional: utilities for logging and environment management
+python-dotenv==1.0.1        # Load .env files
+loguru==0.7.2               # Structured logging
+
+# End of requirements.txt
